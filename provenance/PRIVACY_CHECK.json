@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "text_files_scanned": 124,
+  "participant_identity_scan": true,
+  "private_identifiers_published": false,
+  "credential_patterns_found": 0,
+  "roster_copied": false,
+  "git_initialized": true
+}

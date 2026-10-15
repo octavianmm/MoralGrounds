@@ -1,0 +1,12 @@
+{
+  "data/humans/commonsense.csv": "5162cb4d2dadb862647101e2ee055948d88ab671f3f9efe4747de9a8b38fa985",
+  "data/humans/deontology.csv": "507b5d638422ce80331572fb39028358b8ecfe745e7882e35fcb2134771130be",
+  "data/humans/justice.csv": "54c1778afacbf7b1157d2c9d6329cd4b703fdf72794fd94bcf6a862e36e2e142",
+  "data/humans/utilitarianism.csv": "a3977c142e9ecb08cb9904ee04657a6e6374ad3d8653de3818d16f6d949fd924",
+  "data/humans/virtue.csv": "72bc5d54184cff66e74515715dc0cdb26057e2fe259ff5a4ce6eefafd8c9b15d",
+  "data/llms/commonsense.csv": "362386d5eb18aa0bc891290725af7e6a1fc31109d9a5309e8c29b10ca9793cae",
+  "data/llms/deontology.csv": "9ac0b4e945120aeccaf62e600062cda145807d4f77c6b120c6eede66d86727de",
+  "data/llms/justice.csv": "f816f2997d3804ca9b440370fddc55e4fcd306b457d059d8b44c64efa59cfe2d",
+  "data/llms/utilitarianism.csv": "324e83c3a9671844d9ebbf16fda71be9ffb6e09016e47a75d0550659fafac79a",
+  "data/llms/virtue.csv": "e8b46d23c909afadd06148b782144920b300f0a15cd57335fb3a83e278116d78"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "tests_passed": 68,
+  "tests_skipped": 0,
+  "command": "python -B -m pytest -q -p no:cacheprovider",
+  "integration_inputs": "reconstructed solely from the ten packaged CSV files"
+}

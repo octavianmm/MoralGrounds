@@ -1,0 +1,17 @@
+{
+  "human_rows": 29925,
+  "human_item_rows": 9975,
+  "raw_workbooks_read": 95,
+  "source_cells_retained": true,
+  "dissenting_annotations_retained": true,
+  "model_rows": 89752,
+  "n_models": 9,
+  "source_files_modified": false,
+  "privacy_exclusions": [
+    "student identity mapping",
+    "emails",
+    "payment records",
+    "Office identity metadata",
+    "API credentials"
+  ]
+}

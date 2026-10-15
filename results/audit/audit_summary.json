@@ -1,0 +1,95 @@
+{
+  "human_majorities_reconciled": 9975,
+  "human_rationale_aggregates_reconciled": 9975,
+  "human_rationale_selection": "majority_aligned",
+  "human_rationale_annotations_retained": 28129,
+  "n_items": 9975,
+  "items_by_partition": {
+    "commonsense": 1995,
+    "deontology": 1995,
+    "justice": 1995,
+    "utilitarianism": 1995,
+    "virtue": 1995
+  },
+  "n_human_annotations": 29925,
+  "n_human_annotators": 19,
+  "human_annotations_per_item": {
+    "3": 9975
+  },
+  "human_unanimous_items": 8179,
+  "human_split_items": 1796,
+  "n_models": 9,
+  "models": [
+    "GaMS-27B-Instruct",
+    "GaMS3-12B-Instruct",
+    "Qwen3.5-27B",
+    "Qwen3.5-9B",
+    "anthropic/claude-fable-5.1",
+    "gemma-2-27b-it",
+    "gemma-3-12b-it",
+    "google/gemini-3.8-flash",
+    "openai/gpt-6-astra"
+  ],
+  "groups": {
+    "all": [
+      "GaMS-27B-Instruct",
+      "GaMS3-12B-Instruct",
+      "Qwen3.5-27B",
+      "Qwen3.5-9B",
+      "anthropic/claude-fable-5.1",
+      "gemma-2-27b-it",
+      "gemma-3-12b-it",
+      "google/gemini-3.8-flash",
+      "openai/gpt-6-astra"
+    ],
+    "frontier": [
+      "anthropic/claude-fable-5.1",
+      "google/gemini-3.8-flash",
+      "openai/gpt-6-astra"
+    ],
+    "gams": [
+      "GaMS-27B-Instruct",
+      "GaMS3-12B-Instruct"
+    ],
+    "gemma": [
+      "gemma-2-27b-it",
+      "gemma-3-12b-it"
+    ],
+    "qwen": [
+      "Qwen3.5-27B",
+      "Qwen3.5-9B"
+    ],
+    "other_models": [
+      "GaMS-27B-Instruct",
+      "GaMS3-12B-Instruct",
+      "Qwen3.5-27B",
+      "Qwen3.5-9B",
+      "gemma-2-27b-it",
+      "gemma-3-12b-it"
+    ]
+  },
+  "n_llm_rows": 89752,
+  "n_missing_llm_rows": 23,
+  "llm_label_status": {
+    "valid": 89723,
+    "invalid": 27,
+    "missing": 2
+  },
+  "all_matched_input_normalized": true,
+  "crosswalk_methods": {
+    "partition+task_instruction_id": 89752
+  },
+  "normalization_and_quality_events": {
+    "normalization": 29226,
+    "missing": 14,
+    "invalid": 31,
+    "inapplicable": 769
+  },
+  "exact_scenario_cluster_audit": {
+    "n_suggested_clusters": 9959,
+    "n_repeated_clusters": 16,
+    "n_items_in_repeated_clusters": 32,
+    "maximum_cluster_size": 2,
+    "interpretation": "Exact duplicate scenario audit only; not automatically used by default"
+  }
+}

@@ -1,0 +1,11 @@
+actor,n_present,n_yes,n_valid_yes_rationale,mean_words,median_words,sd_words,min_words,max_words,n_one_word,repeated_text_excess,interpretation
+humans,5749,3073,3073,15.2124959323137,15.0,4.422445125061408,3,34,0,32,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+GaMS-27B-Instruct,1995,888,886,11.09255079006772,10.0,4.2964195887655325,1,33,2,2,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+GaMS3-12B-Instruct,1995,1027,1027,19.21518987341772,19.0,4.835646052655634,8,41,0,0,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+Qwen3.5-27B,1995,912,912,22.167763157894736,22.0,3.6028608337725867,11,37,0,0,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+Qwen3.5-9B,1995,836,836,21.98444976076555,22.0,3.5499511419240473,10,36,0,0,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+anthropic/claude-fable-5.1,1995,1049,1049,26.00095328884652,26.0,3.7015314355325732,16,39,0,0,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+gemma-2-27b-it,1995,1062,1062,16.53295668549906,16.0,3.27218686743114,8,34,0,1,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+gemma-3-12b-it,1995,1013,1013,20.22112537018756,20.0,3.3080432457405555,10,32,0,0,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+google/gemini-3.8-flash,1995,1049,1049,21.279313632030505,21.0,3.2133371137047044,11,32,0,0,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"
+openai/gpt-6-astra,1995,1039,1039,20.04716073147257,20.0,3.060515075618875,11,30,0,0,"YES-eligible text only; length/repetition are descriptive, not semantic alignment"

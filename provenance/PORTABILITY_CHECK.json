@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_repository_needed": false,
+  "package_relocated": true,
+  "analysis_bootstrap_draws": 50,
+  "intervals_publication_quality": false,
+  "point_estimates_compared": 756,
+  "selected_case_bytes_identical": true,
+  "network_or_api_calls": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "bootstrap_resamples": 5000,
+  "seed": 20260917,
+  "byte_identical_outputs": [
+    "judgments/human_reliability.csv",
+    "judgments/model_vs_human.csv",
+    "rationales/model_human_overlap.csv",
+    "examples/selected_cases.csv",
+    "summary/matched_complete_label_panels.csv"
+  ]
+}

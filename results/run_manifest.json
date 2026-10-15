@@ -1,0 +1,102 @@
+{
+  "analysis_version": "1.0.0",
+  "arguments": {
+    "audit_only": false,
+    "bootstrap": 5000,
+    "cluster_map": null,
+    "config": "config/model_groups.json",
+    "human": "reconstructed from data/humans/*.csv",
+    "llm": "reconstructed from data/llms/*.csv",
+    "no_plots": false,
+    "out": "this results directory",
+    "seed": 20260917,
+    "threads": 1
+  },
+  "bootstrap_draws_shared_across_actors": true,
+  "bootstrap_resamples": 5000,
+  "bootstrap_unit": "instruction",
+  "cluster_map_sha256": null,
+  "code_sha256": {
+    "analyze_ethics.py": "7ddf1f2e76d17d1332167d1a03ef6ab33528780928b5659b454f5c021f9feddb",
+    "compute_requested_agreement.py": "cf80ae3b4b225e2a03ec084957f4874e89f6c630ca1b153c1ee9f33f405a882a",
+    "ethics_analysis/__init__.py": "27e04cf672c77c94786141e9ea683f33da73b5f6c2a28758e57ee90917611431",
+    "ethics_analysis/ingest.py": "151c138a7fd06570677fa940d8ad54867e2d0bc5e28cb3f4e3b8e24e475379db",
+    "ethics_analysis/io_utils.py": "2a620293742b8d57fd3b7d4b6966dc3cd01cda2abcc5d312f7d02eb65234d654",
+    "ethics_analysis/judgments.py": "37e33e6803bc3d2cc3b3fbfff2fec03ac882c8e6f7d0af4c63687af9459c467a",
+    "ethics_analysis/metrics.py": "164ef499894e69a639b59ac6daa68db97d97b6240ff5ac096b6e2067b2668241",
+    "ethics_analysis/rationales.py": "4d0c2399d5ddedba16e09d03cfd30344da376e9a1624c912f0aaaf9375ede233",
+    "ethics_analysis/reporting.py": "c092edbcf7caeb4abdc47f3b5316cb77dcdb477840200699a77a6d901386dd11",
+    "ethics_analysis/schema.py": "3a1577b65ca4cd829fb1d313f84f21cd84bb614c244a4c4b3a9eb0ba759d3e97",
+    "scripts/build_collaborator_report.py": "4cf9a61a4708480b13847b416ed758ec648dfd01df0a1c6d7f95bc0a4e7d97af",
+    "scripts/check_portability.py": "b2c5fbd2d96be4c2ba277d754df9d870db68d64f22392d7dcf096afa6be03d7d",
+    "scripts/export_from_source.py": "f7f7772e617a3543775c2e552c815ad5ae8e2d9fe80d6c128d9a43c4a925e8ef",
+    "scripts/freeze_package.py": "8cdab18c2f006f5fa8222c389e899aa33388e291628a13c289232e7bf990fc21",
+    "scripts/prepare_inputs.py": "cff6d37652d2cda5a6472f68e62d967deb312d361b6b8635be9211116454f101",
+    "scripts/run_analysis.py": "bf122516527ac4f20edf7bcbbc1b6ac1e9753b1bf8f55d93e42681a2115fba33",
+    "scripts/validate_package.py": "f8019b783a81ee503bec68ee7deac463743b1e5e10b47cb4fe65588afd5585b0",
+    "support/aggregation/aggregate_majority_labels.py": "009435101fe82131f65f8740522e9d26bceb45de9a011911e5ca647a01de4c86",
+    "support/aggregation/concatenate_categorical_rationales.py": "d9b3531b4853684ba2b7841e8351ff0fe8ec55e70f0a171f0df595126c9c627d",
+    "tests/test_collaborator_package.py": "f9a1dca78afd3446f03f8eeed455748581b3e73c87aa3c46d5314c6f269fe0d0",
+    "tests/test_ingest.py": "7eaf1ee0053da78b4bc8fe4b721b2f115edbb9d057fc58e876c837ff2cf9511e",
+    "tests/test_metrics.py": "c1b3367012ab6ada7fd3e3a3381386cce77e1e246514364c7bc0a0f4239baf64",
+    "tests/test_rationales.py": "d846efcf9bb47455cfeeeb9471252ddbb126384a9a8a2bf2badb90f3e515d970",
+    "tests/test_requested_agreement.py": "604721146e5f31db37fa3bf2257efc50d93d603adf7ebb5a7a00aaf4f15e08dc",
+    "tests/test_result_validation.py": "81e28e6aca4db59188b7f41bd6a2f002c43e5f9657c0e99a267d3e08eedcf14e",
+    "tests/test_schema.py": "6436d4283642df92302662aabf19d0ef5c272bffadd2de32e3e6507fdfa335a8",
+    "validate_results.py": "38cda411465ade5c7224a16cf1b7d9d062204f0fee69470d9f97fbfe7853e59b"
+  },
+  "elapsed_seconds": 19.888304457999766,
+  "groups": {
+    "all": [
+      "GaMS-27B-Instruct",
+      "GaMS3-12B-Instruct",
+      "Qwen3.5-27B",
+      "Qwen3.5-9B",
+      "anthropic/claude-fable-5.1",
+      "gemma-2-27b-it",
+      "gemma-3-12b-it",
+      "google/gemini-3.8-flash",
+      "openai/gpt-6-astra"
+    ],
+    "frontier": [
+      "anthropic/claude-fable-5.1",
+      "google/gemini-3.8-flash",
+      "openai/gpt-6-astra"
+    ],
+    "gams": [
+      "GaMS-27B-Instruct",
+      "GaMS3-12B-Instruct"
+    ],
+    "gemma": [
+      "gemma-2-27b-it",
+      "gemma-3-12b-it"
+    ],
+    "other_models": [
+      "GaMS-27B-Instruct",
+      "GaMS3-12B-Instruct",
+      "Qwen3.5-27B",
+      "Qwen3.5-9B",
+      "gemma-2-27b-it",
+      "gemma-3-12b-it"
+    ],
+    "qwen": [
+      "Qwen3.5-27B",
+      "Qwen3.5-9B"
+    ]
+  },
+  "human_reliability_reconciliation": {
+    "status": "reference_summary_not_present"
+  },
+  "input_paths_read_only": true,
+  "network_or_api_calls": false,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "seed": 20260917,
+  "software": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  }
+}

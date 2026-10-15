@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "package_checks": 101815,
+  "source_comparison": {
+    "normalized_records_compared": 29925,
+    "original_cell_records_compared": 29925,
+    "original_source_hashes_unchanged": true,
+    "previous_label_and_rationale_results_reconciled": true
+  },
+  "n_items": 9975,
+  "human_ratings": 29925,
+  "annotators": 19,
+  "models": 9,
+  "selected_examples": 25,
+  "input_files": 10,
+  "offline": true,
+  "source_files_modified": false,
+  "git_initialized": false,
+  "reference_library_checks": true
+}
